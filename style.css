@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&display=swap');
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+    font-family: "Jersey 15";
+    font-size: 20px;
+}
+body{
+    background-color: darkslategray;
+}
+.header{
+    background-image: linear-gradient(to top left, #0a2e7a, #743ef1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 5px 10%;
+}
+.header .logo{
+    cursor: pointer;
+}
+.header .logo img{
+    height: 85px;
+    width: auto;
+    transition: all 0.3s;
+}
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+.header .nav-links{
+    list-style: none;
+}
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+.header .nav-links li a:hover{
+    color: blue;
+}
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.presentacion{
+    background-image: url(img/FondoPresentacion.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    color: rgb(159, 216, 213);
+    padding: 240px;
+}
+.presentacion h1{
+    font-size: 50px;
+}
