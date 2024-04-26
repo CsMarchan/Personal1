@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&family=Jersey+25&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Jersey+10&family=Jersey+15&family=Jersey+25&display=swap');
 *{
     margin: 0;
     box-sizing: 0;
     padding: 0;
-    font-family: "Jersey 15";
+    font-family: "Bebas Neue";
     font-size: 20px;
 }
 body{
@@ -106,4 +107,86 @@ body{
     background-color:#ffffff31 ;
     border: 3px solid #ffffff31;
     transform: skew(20deg, 0deg) scale(1.1);
+}
+.tiendas{
+    background-image: url(img/gaming.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(99, 194, 178);
+    padding: 70px;
+    justify-content: space-around;
+    display: flex;
+}
+.primero{
+    margin:50px ;
+}
+.segundo{
+    margin: 50px;
+}
+.primero h2{
+    padding: 10px;
+    font-size: 30px;
+}
+.segundo h2{
+    padding: 10px;
+    font-size: 30px;
+}
+.primero p{
+    text-align: justify;
+}
+.segundo p{
+    text-align: justify;
+}
+.primero img{
+    margin: 20px;
+    height: 275px;
+    width: 275px;
+    display: flex;
+    border: #743ef1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.segundo img{
+    margin: 20px;
+    height: 275px;
+    width: 275px;
+    display: flex;
+    border: #743ef1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.primero img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.segundo img:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.tercero{
+    margin: 50px;
+}
+.tercero h2{
+    padding: 10px;
+    font-size: 30px;
+}
+.tercero p{
+    text-align: justify;
+}
+.tercero img{
+    margin: 20px;
+    height: 275px;
+    width: 275px;
+    display: flex;
+    border: #743ef1;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s;
+}
+.tercero img:hover{
+    transform: scale(1.1);
+    transition: 2s;
 }
