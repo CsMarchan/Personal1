@@ -144,9 +144,9 @@ body{
     width: 275px;
     display: flex;
     border: #743ef1;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
-    transition: 2s;
+    transition: 1s;
 }
 .segundo img{
     margin: 20px;
@@ -154,17 +154,17 @@ body{
     width: 275px;
     display: flex;
     border: #743ef1;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
-    transition: 2s;
+    transition: 1s;
 }
 .primero img:hover{
     transform: scale(1.1);
-    transition: 2s;
+    transition: 1s;
 }
 .segundo img:hover{
     transform: scale(1.1);
-    transition: 2s;
+    transition: 1s;
 }
 .tercero{
     margin: 50px;
@@ -182,11 +182,11 @@ body{
     width: 275px;
     display: flex;
     border: #743ef1;
-    border-radius: 10px;
+    border-radius: 15px;
     cursor: pointer;
-    transition: 2s;
+    transition: 1s;
 }
 .tercero img:hover{
     transform: scale(1.1);
-    transition: 2s;
+    transition: 1s;
 }
